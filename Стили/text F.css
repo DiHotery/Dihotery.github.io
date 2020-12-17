@@ -1,0 +1,22 @@
+   .layer1 /* Стиль основного текста */
+	{
+	  box-shadow: 7px 7px 5px rgba(0,0,0,0.6); /* Тень */
+	  border-radius: 10px; /* Радиус скругления */
+	  background: #e6e6fa;/* Цвет фона */
+	  padding: 10px; /* Поля вокруг текста */
+	  margin: 1px;
+	}
+	.child 
+	{
+		background: #eee;
+		float: right;
+		width: 23.5%;
+		margin-right: 2%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.child:last-child 
+	{
+		margin-right: 0;
+	}
